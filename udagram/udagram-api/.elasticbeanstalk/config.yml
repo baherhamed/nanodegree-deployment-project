@@ -1,3 +1,5 @@
+deploy:
+  artifact: www/Archive.zip
 branch-defaults:
   default:
     environment: Baherproject-env
@@ -17,5 +19,3 @@ global:
   profile: null
   sc: null
   workspace_type: Application
-  deploy:
-    artifact: ../Archive.zip
