@@ -65,6 +65,52 @@ The e2e tests are using Protractor and Jasmine.
 
 [License](LICENSE.txt)
 
+# Description
+
+    This project conatins frontend and backend frontend exisit in path udagram/udagram-frontend and backend exitist in udagram/udagram-api
+    this project is to train to eployment process
+
+# Dependencies
+
+- frontend :
+
+* Angular 8
+* ionic 5
+* rxjs 6
+
+- backend :
+
+* express 4
+* body-parser
+* email-validator
+* sequelize
+* dotend
+* aws-sdk
+
+# Pipeline process
+
+the pipeline works with the following sequence
+
+1. build
+   with the folloing steps:
+   - install nodejs ver 16.13
+   - checkout code
+   - install frontend Dependencies
+   - install backend Dependencies
+   - linting frontend
+   - Build frontend
+   - Build backend
+2. hold
+
+- must be approval manually
+
+3. deploy
+   - setup Elasticbeans Talk
+   - install AWS cli
+   - configure AWS With credintial
+   - checkout code
+   - start deployment procees for backend and frontend
+
 # Links
 
 - backend : http://baherproject-env.eba-nppdiih3.us-east-1.elasticbeanstalk.com/
