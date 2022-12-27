@@ -1,1 +1,0 @@
-eb setenv JWT_SECRET='secrestkeypassword' POSTGRES_USERNAME='postgres' POSTGRES_PASSWORD='password' POSTGRES_HOST='project.coupdwiglhpf.us-east-1.rds.amazonaws.com'
